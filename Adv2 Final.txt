@@ -1,0 +1,17 @@
+با استفاده از فیلم زیر، برنامه ای بنویسید که در فیلم خط های جاده را مشخص کند 
+و میانگین دو خط سمت چپ و راست جاده را نیز نمایش بدهد
+شیب خط میانگین را نیز نمایش دهید
+
+
+
+فرمول شیب خط =  a = (x2 - x1) / (y2 - y1)
+
+		خطراست		    خط چپ
+میانگین = (  ((x1,y1),(x2,y2)) + ((x1,y1),(x2,y2))  ) /2
+
+
+فیلم:
+https://github.com/Mohsencactus/Computer-Vision-files/raw/master/LIne%20and%20lane%20detections/2road.mp4
+
+عکس بخشی از فیلم:
+https://github.com/Mohsencactus/Computer-Vision-files/raw/master/LIne%20and%20lane%20detections/2road.jpg

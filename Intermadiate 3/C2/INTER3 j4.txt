@@ -1,0 +1,9 @@
+l1 = ['',"I","II","III","IV","V","VI","VII","VIII","IX"]								
+l2 = ['',"X","XX","XXX","XL","L","LX","LXX","LXXX","XC"] 								
+l3 = ['',"C","CC","CCC","CD","D","DC","DCC","DCCC","CM"]
+
+while True:
+    inpt = int(input("Whats the number?"))
+
+    result = l3[int(inpt%1000/100)] + l2[int(inpt%100/10)] + l1[int(inpt%10)]
+    print(result)
